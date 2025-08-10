@@ -36,16 +36,16 @@ FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/filesupportweb")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
+START_PIC = os.environ.get("START_PIC", "https://files.catbox.moe/53se7e.jpg, https://files.catbox.moe/atjnp6.jpg, https://files.catbox.moe/bq8myd.jpg, https://files.catbox.moe/u85mkl.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://files.catbox.moe/53se7e.jpg, https://files.catbox.moe/atjnp6.jpg, https://files.catbox.moe/bq8myd.jpg, https://files.catbox.moe/u85mkl.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "sharedisklinks.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "d69374525ceda55c876c406e4140d00a6974913d")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/hwdownload/3")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
-SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
+SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://files.catbox.moe/53se7e.jpg, https://files.catbox.moe/atjnp6.jpg, https://files.catbox.moe/bq8myd.jpg, https://files.catbox.moe/u85mkl.jpg")
 #--------------------------------------------
 
 #--------------------------------------------
@@ -80,7 +80,7 @@ CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockqu
 <b>›› /delreq :</b> Rᴇᴍᴏᴠᴇᴅ ʟᴇғᴛᴏᴠᴇʀ ɴᴏɴ-ʀᴇǫᴜᴇsᴛ ᴜsᴇʀs
 """
 #--------------------------------------------
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @nova_flix</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ Admin</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False #set True if you want to prevent users from forwarding files from bot
 #--------------------------------------------
 #Set true if you want Disable your Channel Posts Share button
